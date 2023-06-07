@@ -1,0 +1,32 @@
+body {
+    background-color: #fafafa; /* Цвет фона веб-страницы */
+}
+p {
+    font-family: 'Comic Sans MS', cursive; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    color: #000000; /* Цвет основного текста */ 
+}
+ul {
+    font-family: 'Comic Sans MS', cursive; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    color: #000000; /* Цвет основного текста */ 
+    list-style-type: square;
+}
+h1 {
+    color: #ffffff; /* Цвет заголовка */
+    font-size: 60px; /* Размер шрифта в пунктах */
+    font-family: impact,sans-serif; /* Семейство шрифтов */
+}
+h2 {
+    color: #060505; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта в пунктах */
+    font-family: impact, sans-serif; /* Семейство шрифтов */
+    border-style: outset
+}
+.myDiv {
+    border: 5px outset black;
+    background-color: black;    
+    text-align: left;
+  }
+
+
