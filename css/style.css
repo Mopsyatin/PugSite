@@ -1,5 +1,5 @@
 body {
-    background-color: #fafafa; /* Цвет фона веб-страницы */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
 }
 p {
     font-family: 'Comic Sans MS', cursive; /* Семейство шрифтов */
@@ -17,16 +17,71 @@ h1 {
     font-size: 60px; /* Размер шрифта в пунктах */
     font-family: impact,sans-serif; /* Семейство шрифтов */
 }
+
+h1:hover {
+    animation: bigger-text 1s infinite;
+}
+
+h2:hover{
+    animation: change-borders 6s infinite;
+}
+
 h2 {
     color: #060505; /* Цвет заголовка */
     font-size: 40px; /* Размер шрифта в пунктах */
     font-family: impact, sans-serif; /* Семейство шрифтов */
     border-style: outset
 }
-.myDiv {
+h3 {
+    color: #ffffff; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта в пунктах */
+    font-family: impact, sans-serif; /* Семейство шрифтов */
+}
+small {
+    color: #ffffff; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+}
+.H1Div {
     border: 5px outset black;
     background-color: black;    
     text-align: left;
-  }
+}
+@keyframes change-borders {
+    12% {
+        border-style: dotted;
+    }
+  
+    24% {
+        border-style: dashed;
+    }
+  
+    36% {
+        border-style: solid;
+    }
+    48% {
+        border-style: double;
+    }
+    60% {
+        border-style: groove;
+    }
+    72% {
+        border-style: ridge;
+    }
+    84% {
+        border-style: inset;
+    }
+    96% {
+        border-style: outset;
+    }
+}
+
+@keyframes bigger-text {
+    0% {
+    font-size: 80px;
+    }
+    100% {
+        font-size: 80px;
+    }
+}
 
 
